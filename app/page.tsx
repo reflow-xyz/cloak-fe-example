@@ -1,6 +1,6 @@
 'use client';
 
-import { WalletMultiButton } from '@solana/wallet-adapter-react-ui';
+import { WalletButton } from '@/components/wallet-button';
 import { BalanceCard } from '@/components/balance-card';
 import { DepositForm } from '@/components/deposit-form';
 import { WithdrawForm } from '@/components/withdraw-form';
@@ -28,7 +28,7 @@ export default function Home() {
               Private transactions on Solana powered by zero-knowledge proofs
             </p>
           </div>
-          <WalletMultiButton />
+          <WalletButton />
         </div>
 
         {/* Balance Cards */}
